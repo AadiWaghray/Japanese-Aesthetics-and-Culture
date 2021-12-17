@@ -4,9 +4,21 @@
 
 .title{
     margin: 0 auto;
-    width: 700px;
-    padding: 1.45rem 1.0875rem;
+    width: 900px;
+    padding: 1rem 1.0875rem;
     text-align: center;
+    display: flex;
+}
+
+.decoration-text{
+    margin: 0rem 1.5rem;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+
+.title-text{
+    color: #9E9E9E;
+    padding-top: 1rem;
 }
 
 .title-link{

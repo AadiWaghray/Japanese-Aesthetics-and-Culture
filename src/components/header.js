@@ -3,25 +3,40 @@ import {navLinksDefault,
         navLinksActive,
 	titleLink,
 	title,
-	header} from "./header.module.css"
+	header,
+	decorationText,
+	titleText} from "./header.module.css"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header className={header}>
     <div className={title}>
-      <h1>
+      <div className={decorationText}>
+	<h1>
+	  アディ
+	</h1>
+      </div> 
+      <div className={titleText}> 
+        <h1>
           <Link
             to="/"
             className={titleLink} 
 	    >
             {siteTitle}
           </Link>
-      </h1>
-
+        </h1>
+      </div>
+      <div className={decorationText}>
+	<h1>
+	  アディ
+	</h1>
+      </div>
+    </div>
+ 
       <div
         style={{
-          margin: '1.5rem auto',
+          margin: '0.75rem auto',
 	  textAlign: 'center'
           }}>
         <Link
@@ -54,7 +69,6 @@ const Header = ({ siteTitle }) => (
 	</Link>
       </div>
 
-    </div>
   </header>
 )
 
