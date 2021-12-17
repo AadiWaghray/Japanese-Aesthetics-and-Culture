@@ -1,0 +1,17 @@
+.title-link{
+    color: #9E9E9E;
+    text-decoration: none;
+}
+
+.nav-links-default{
+    margin: 0 auto;
+    padding:0 0.5rem;
+    color: #9E9E9E;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-links-active{
+    color: #E0E0E0;
+    text-decoration: underline;
+}
