@@ -1,27 +1,16 @@
 import * as React from "react"
 import {navLinksDefault,
         navLinksActive,
-	titleLink} from "./header.module.css"
+	titleLink,
+	title,
+	header} from "./header.module.css"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `1.45rem`
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 700,
-        padding: `1.45rem 1.0875rem`,
-      }}
-      >
-      <h1 
-	style={{
-	  textAlign: 'center'}}
-	  >
+  <header className={header}>
+    <div className={title}>
+      <h1>
           <Link
             to="/"
             className={titleLink} 

@@ -1,3 +1,14 @@
+.header{
+    margin-bottom: 1.45rem;
+}
+
+.title{
+    margin: 0 auto;
+    width: 700px;
+    padding: 1.45rem 1.0875rem;
+    text-align: center;
+}
+
 .title-link{
     color: #9E9E9E;
     text-decoration: none;
